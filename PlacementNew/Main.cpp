@@ -38,16 +38,27 @@ private:
 
 int main()
 {
-	//1- 分配内存
-	XClass* pObject = (XClass*)XClass::operator new(sizeof(XClass));
-	//2- 构造对象
-	new(pObject) XClass(1);
-	//3- 使用对象
-	pObject->Tell();
-	//4- 析构对象
-	pObject->~XClass();
-	//5- 释放内存
-	XClass::operator delete(pObject);
+/*
+	一般对象构造过程
+*/
+	XClass* p = new XClass(10);
+	delete p;
+
+
+/*
+	分解对象构造过程
+*/
+	////1- 分配内存
+	//XClass* pObject = (XClass*)XClass::operator new(sizeof(XClass));
+	////2- 构造对象
+	//new(pObject) XClass(1);
+	////3- 使用对象
+	//pObject->Tell();
+	////4- 析构对象
+	//pObject->~XClass();
+	////5- 释放内存
+	//XClass::operator delete(pObject);
+
 
  	system("pause");
 }
