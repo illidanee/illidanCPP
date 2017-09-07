@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlacementNew", "PlacementNew\PlacementNew.vcxproj", "{74467435-2A09-4CD6-9267-76663D2148FB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VirtualDestructor", "VirtualDestructor\VirtualDestructor.vcxproj", "{AFA01740-973A-4085-904F-C9B598E2BB15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{74467435-2A09-4CD6-9267-76663D2148FB}.Release|x64.Build.0 = Release|x64
 		{74467435-2A09-4CD6-9267-76663D2148FB}.Release|x86.ActiveCfg = Release|Win32
 		{74467435-2A09-4CD6-9267-76663D2148FB}.Release|x86.Build.0 = Release|Win32
+		{AFA01740-973A-4085-904F-C9B598E2BB15}.Debug|x64.ActiveCfg = Debug|x64
+		{AFA01740-973A-4085-904F-C9B598E2BB15}.Debug|x64.Build.0 = Debug|x64
+		{AFA01740-973A-4085-904F-C9B598E2BB15}.Debug|x86.ActiveCfg = Debug|Win32
+		{AFA01740-973A-4085-904F-C9B598E2BB15}.Debug|x86.Build.0 = Debug|Win32
+		{AFA01740-973A-4085-904F-C9B598E2BB15}.Release|x64.ActiveCfg = Release|x64
+		{AFA01740-973A-4085-904F-C9B598E2BB15}.Release|x64.Build.0 = Release|x64
+		{AFA01740-973A-4085-904F-C9B598E2BB15}.Release|x86.ActiveCfg = Release|Win32
+		{AFA01740-973A-4085-904F-C9B598E2BB15}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
