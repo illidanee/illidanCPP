@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VirtualDestructor", "Virtua
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Key-explicit", "Key-explicit\Key-explicit.vcxproj", "{6B0B6070-1BA3-481E-BEBB-1C64D50574CC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SharedPtr", "SharedPtr\SharedPtr.vcxproj", "{1021B6AC-1ED1-4392-A85B-8F82A9ADE9A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{6B0B6070-1BA3-481E-BEBB-1C64D50574CC}.Release|x64.Build.0 = Release|x64
 		{6B0B6070-1BA3-481E-BEBB-1C64D50574CC}.Release|x86.ActiveCfg = Release|Win32
 		{6B0B6070-1BA3-481E-BEBB-1C64D50574CC}.Release|x86.Build.0 = Release|Win32
+		{1021B6AC-1ED1-4392-A85B-8F82A9ADE9A1}.Debug|x64.ActiveCfg = Debug|x64
+		{1021B6AC-1ED1-4392-A85B-8F82A9ADE9A1}.Debug|x64.Build.0 = Debug|x64
+		{1021B6AC-1ED1-4392-A85B-8F82A9ADE9A1}.Debug|x86.ActiveCfg = Debug|Win32
+		{1021B6AC-1ED1-4392-A85B-8F82A9ADE9A1}.Debug|x86.Build.0 = Debug|Win32
+		{1021B6AC-1ED1-4392-A85B-8F82A9ADE9A1}.Release|x64.ActiveCfg = Release|x64
+		{1021B6AC-1ED1-4392-A85B-8F82A9ADE9A1}.Release|x64.Build.0 = Release|x64
+		{1021B6AC-1ED1-4392-A85B-8F82A9ADE9A1}.Release|x86.ActiveCfg = Release|Win32
+		{1021B6AC-1ED1-4392-A85B-8F82A9ADE9A1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
